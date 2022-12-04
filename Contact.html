@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <meta charset="UTF-8">
+ <meta name="description" content="Search for Giantpandas Contact Form">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <title>Contact Us and Find Giantpandas </title>
+
+ <link rel="stylesheet" href="style.css">
+ <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Futura" rel="stylesheet"> 
+
+ <style>
+
+  body{
+   background-image: url('img/background.jpeg');
+   font-family: Futura;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  h2{
+   font-size: 40px;
+   margin:0px;
+   text-align: center;
+  }
+
+  #container{
+   width:1200px;
+   margin:0px auto;
+   padding-top: 25px;
+   font-size: 23px;
+   background-color:linen;
+  }
+  
+  #header{
+  background-color: DarkRed;
+  }
+
+  #nav a{
+  color: FloralWhite;
+  }
+
+  #contact{
+   margin-left:auto;
+   margin-right:auto;
+   padding-left: 20%;
+   padding-bottom: 20px;
+  }
+
+  .form {
+   margin: 20px;
+   clear:both;
+  }
+  
+  .question {
+   width: 500px;
+  }
+  
+  #comment {
+   width:500px;
+   height:100px;
+   border:1px solid black;   
+  }
+
+  #name{
+   width:150px;
+   height:25px;
+   border:1px solid black;
+  }
+
+  #email{
+   width:150px;
+   height:25px;
+   border:1px solid black;
+  } 
+
+  #submit{
+   background-color: green;
+   border:1px solid black;
+   color:white;
+   font-size: 20px;
+   padding:10px;
+   font-family: Futura;
+  }
+
+  #clear{
+   background-color: PapayaWhip;
+   border:1px solid grey;
+   color:grey;
+   font-size: 20px;
+   padding:10px;
+   font-family: Futura;
+  }
+ </style>
+</head>
+
+<body>
+<div id="header">
+    <a href="https://dornsife.usc.edu/the-writing-program/writ-150/"><img src="img/USC_logo.png" alt="USC logo"></a>
+
+    <div id="nav">
+    <a href="Homepage.html">Home</a>
+    <a href="General information.html">Context</a>
+    <a href="Personal experience.html">Experience</a>
+    <a href="Interview.html">Interview</a>
+    <a href="Contact.html">Contact</a>
+    </div>
+</div>
+
+
+
+ <h1>Contact Us</h1>
+
+<div id="container">
+ <h2>Sign up to subscribe to updated information from WaterDrop LA:</h2>
+
+<div id="contact">
+ <form action="confirmation.html">
+
+  <div class="form">
+   <label class="question" for="name">Name:</label><br>
+   <input id="name" type="text" placeholder="e.g. Tommy Trojan">
+  </div> 
+
+  <div class="form">
+   <label class="question" for="email">Email:</label><br>
+   <input id="email" type="email" placeholder="e.g. xxxxxxx@gmail.com">
+  </div> 
+
+  <div class="form">
+   <label class="question">Receive email notifications from us to Keep up with the latest program from WaterDrop LA</label><br>
+   <label><input type="radio" name="email" value="yes">Yes</label>
+   <label><input type="radio" name="email" value="no">No</label>
+  </div> 
+
+  <div class="form">
+   <label class="question">Subscribe to WaterDrop LA's social media:</label><br>
+   <label><input type="checkbox" value="event">Twitter</label>
+   <label><input type="checkbox" value="news">Instagram</label>
+   <label><input type="checkbox" value="update">Facebook</label>
+  </div>
+
+  <div class="form">
+   <label class="question" for="comment">Have any comments or questions?</label><br>
+   <textarea id="comment"></textarea>
+  </div> <!-- .form -->
+
+  <div class="form">
+   <button id="submit" type="submit">SUBMIT</button>
+   <button id="clear" type="reset">CLEAR</button>
+  </div> <!-- .form -->
+ </form>
+</div><!--contact-->
+
+</div><!--container-->
+
+<div id="footer">
+<p>Contact us <a href="mailto:ryang212@usc.edu">here</a >!</p>
+</div>
+</body>
+
+</html>
